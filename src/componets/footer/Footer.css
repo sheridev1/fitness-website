@@ -1,0 +1,53 @@
+.footer{
+    position: relative;
+}
+
+hr{
+    
+    border:1px solid var(--lightgray);
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.footer-icons{
+   display: flex;
+   gap: 4rem;
+   justify-content: center;
+   flex-direction: column;
+   padding:1rem 2rem;
+   align-items: center;
+   height:20rem;
+  
+}
+.social-icons{
+    display: flex;
+    gap:4rem
+}
+.social-icons>img{
+    width:2rem;
+    height:2rem;
+    cursor: pointer;
+}
+
+.logo-f>img{
+    width:10rem;
+    
+}
+
+.blur-f-1{
+    width:26rem;
+    height:12rem;
+    bottom:0rem;
+    right: 15%;
+    filter: blur(200px);
+    background: red;
+}
+.blur-f-2{
+    width:26rem;
+    height:12rem;
+    bottom:0rem;
+    left: 15%;
+    filter: blur(150px);
+    
+}

@@ -1,0 +1,37 @@
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+.hero-text{
+    font-size: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+
+.sub-text{
+    font-size: 1rem;
+    font-weight: 200;
+    color:white;
+    width: 80%;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:768px) {
+    .hero-text{
+        font-size:xx-large;
+        align-items: center;
+        justify-content: center ;
+    }
+
+    .sub-text
+    {
+        font-size: small;
+        text-align: center;
+        justify-content: center;
+    }
+}
