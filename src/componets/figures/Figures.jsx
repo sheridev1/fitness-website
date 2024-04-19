@@ -12,7 +12,7 @@ const Figures = () => {
       </div>
       <div>
         <span>
-          {" "}
+          {" "} 
           <CountUp end={978} start={900} delay="2" prefix="+" />
         </span>
         <span>Members Joined</span>
